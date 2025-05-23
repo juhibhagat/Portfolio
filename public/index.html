@@ -9,40 +9,55 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <style>
-        a{
+        a {
             text-decoration: none;
             color: #000;
         }
-        body{
+
+        body {
             margin: 0;
             padding: 0;
         }
-        .icon:hover{
+
+        .icon:hover {
             color: white;
             background-color: #000;
-            
+
         }
-        li{
+
+        li {
             list-style: none;
         }
-        li:hover{
+
+        li:hover {
             background-color: hsl(130, 51%, 88%);
         }
-        li a:hover{
+
+        li a:hover {
             color: #67e4c9;
+        }
+
+        .pborder {
+            border-bottom: 1px dotted gray;
+            border-left: none;
+            border-right: none;
+            border-top: none;
         }
     </style>
 </head>
 
 <body>
-    <header >
-        <div class="d-flex justify-content-between align-items-center " style=" height: 40px;background-color: #90DBFF;">
+    <header>
+        <div class="d-flex justify-content-between align-items-center "
+            style=" height: 40px;background-color: #90DBFF;">
             <div class="d-flex ">
-                <div class="pe-5"> 
-                    <span class="bi bi-envelope ps-5"><a href="mailto:jkri0206@gmail.com"><span class="ps-3">jkri0206@gmail.com</span></a></span>
+                <div class="pe-5">
+                    <span class="bi bi-envelope ps-5"><a href="mailto:jkri0206@gmail.com"><span
+                                class="ps-3">jkri0206@gmail.com</span></a></span>
                 </div>
                 <div>
-                    <span class="bi bi-telephone-fill"><a href="tel:918863820396"><span class="ps-3">8863820396</span></a></span>
+                    <span class="bi bi-telephone-fill"><a href="tel:918863820396"><span
+                                class="ps-3">8863820396</span></a></span>
                 </div>
             </div>
 
@@ -74,23 +89,42 @@
 
 
     <!---footer-->
-    
+
     <footer>
-        <div>
-            <div>ABOUT US</div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, aspernatur? Dolores iste omnis facere id sint quibusdam sit sequi eligendi eum modi eius assumenda unde, aperiam explicabo atque. Voluptas, incidunt!</p>
+        <div class="row container-fluid">
+            <div class="col-lg-3 col-md-6">
+                <div>ABOUT US</div>
+                <hr class="w-25">
+                <p>Lizmed, sağlık alanında yenilikçi ve kaliteli hizmet sunmayı hedefleyen bir sağlık kuruluşudur. Amacımız, bireylerin sağlığını korumak ve geliştirmek için kapsamlı çözümler sunmaktır. Alanında uzman hekimler, deneyimli sağlık personeli ve modern teknoloji ile donatılmış altyapımız sayesinde, hastalarımıza en iyi hizmeti verme konusunda kararlıyız.!</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <p>LATEST NEWS</p>
+                <div class="pborder">
+                    <p>Protein shake diet for weight loss</p>
+                </div>
+                <div class="pborder">
+                    <p>Vitamin D: Health Benefits, Facts and Research</p>
+                </div>
+                <p>How Much Sugar Is In Your Food And Drink?</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <p>Popular News</p>
+                <p> Donating plasma: What are the side effects and risks?</p>
+                <hr>
+                <p><a href="#">Sperm morphology:Texts and results</a></p>
+                <hr>
+                <p>Protein shake diet for weight loss</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <p>CONTACT US</p>
+                <address>
+                    <span class="bi bi-geo-alt-fill">ABC Steet, NewYork.</span>
+                <span class="bi bi-telephone-fill"><a href="tel:8863820396">8863820396</a></span>
+                <span class="bi bi-calculator"><a href="555-475-7896"></a></span>
+                </address>
+            </div>
         </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div><div>
-
-       </div>
     </footer>
 </body>
 
